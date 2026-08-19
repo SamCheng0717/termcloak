@@ -1,0 +1,5 @@
+.termcloak/
+.novel-code/
+node_modules/
+*.log
+*.tgz
