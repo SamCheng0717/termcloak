@@ -2,6 +2,15 @@
   "name": "termcloak",
   "version": "0.2.0-alpha.1",
   "description": "A private local reader with a generic AI coding session interface for terminals.",
+  "author": "SamCheng0717",
+  "homepage": "https://github.com/SamCheng0717/termcloak#readme",
+  "bugs": {
+    "url": "https://github.com/SamCheng0717/termcloak/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamCheng0717/termcloak.git"
+  },
   "type": "module",
   "bin": {
     "termcloak": "./bin/termcloak.js"

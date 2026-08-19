@@ -1,5 +1,7 @@
 # Termcloak
 
+[![CI](https://github.com/SamCheng0717/termcloak/actions/workflows/ci.yml/badge.svg)](https://github.com/SamCheng0717/termcloak/actions/workflows/ci.yml)
+
 一个本地优先、纯终端运行的 TXT 阅读器。正文显示在通用 AI 编程会话界面中，包含固定底部输入框、运行状态动画、斜杠命令和一键工作遮罩。
 
 Termcloak 不调用 Claude、Codex 或其他 AI 服务，不覆盖它们的命令，也不是任何 AI 厂商的官方产品。状态、耗时和 token 数只属于本地界面动画。
@@ -9,6 +11,7 @@ Termcloak 不调用 Claude、Codex 或其他 AI 服务，不覆盖它们的命�
 需要 Node.js 20 或更高版本。
 
 ```bash
+git clone https://github.com/SamCheng0717/termcloak.git
 cd termcloak
 npm start
 ```
