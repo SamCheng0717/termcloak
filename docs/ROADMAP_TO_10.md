@@ -233,7 +233,7 @@ BOOTING → READING ↔ INPUTTING
 
 目标：让陌生用户可以安装、理解、使用、卸载和反馈。
 
-- [ ] `PKG-001` 完善 `package.json`：author、repository、homepage、bugs、keywords、files。
+- [x] `PKG-001` 完善 `package.json`：author、repository、homepage、bugs、keywords、files。
 - [x] `PKG-002` 使用 `files` 白名单控制 npm 内容，排除测试书籍、截图源文件和本地配置。
 - [x] `PKG-003` `npm pack` 后在干净临时目录完成安装与启动冒烟测试。
 - [ ] `PKG-004` 发布 npm 包和带校验值的 GitHub Release；版本遵循 SemVer。
